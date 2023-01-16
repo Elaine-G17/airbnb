@@ -1,5 +1,7 @@
 -- What are all the neighborhoods?
-
+SELECT listings.neighborhood 
+FROM listings 
+GROUP BY listings.neighborhood; 
 -- +------------------------+
 -- | Albany Park            |
 -- | Archer Heights         |
